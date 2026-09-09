@@ -15,8 +15,8 @@
 <table>
   <tr>
     <td valign="top">
-      <a href="https://tenor.com/view/lain-serial-experiments-lain-d3vo1d-gif-27302172">
-        <img src="https://media1.tenor.com/m/2QKqEPpxYXgAAAAC/lain-serial-experiments-lain.gif" alt="Lain Serial Experiments Lain GIF" width="450" />
+      <a href="https://tenor.com/view/lain-experiments-gif-202687086491934216">
+        <img src="https://media1.tenor.com/m/AtAW1M7pHggAAAAC/lain-experiments.gif" alt="Lain Serial Experiments Lain GIF" width="400" />
       </a>
     </td>
     <td valign="top">
