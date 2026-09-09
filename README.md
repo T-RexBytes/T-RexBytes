@@ -25,14 +25,13 @@
 class SourishPanda {
 public:
     string role = "B.Tech IT Student";
-    string institution = 
-        "Guru Nanak Institute of Technology";
+    string collage = 
+        "Gurunanak Institute of Technology";
     string base = "Kolkata, India";
     vector<string> focus = {"AIML", "DSA", "Japanese"};
 
     void message() {
-        cout << "Collaborating With Peers "
-             << "for Hacks & Work";
+        cout << "Collaborating With Peers for Hacks & Work";
     }
 };
 
