@@ -43,24 +43,14 @@ self.message();
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/sourish-panda81">
-  <img src="icons/linkedin.svg" width="32" height="32" alt="LinkedIn" />
-</a>
+<a href="https://www.linkedin.com/in/sourish-panda81"><img src="icons/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://leetcode.com/u/t-rexbytes/">
-  <img src="icons/leetcode.svg" width="32" height="32" alt="LeetCode" />
-</a>
+<a href="https://leetcode.com/u/t-rexbytes/"><img src="icons/leetcode.svg" width="32" height="32" alt="LeetCode" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://x.com/T_RexBytes_">
-  <img src="icons/x.svg" width="32" height="32" alt="X" />
-</a>
+<a href="https://discord.com/users/terex_24_"><img src="icons/discord.svg" width="32" height="32" alt="Discord" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://instagram.com/terex_24">
-  <img src="icons/instagram.svg" width="32" height="32" alt="Instagram" />
-</a>
+<a href="https://instagram.com/terex_24"><img src="icons/instagram.svg" width="32" height="32" alt="Instagram" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:sourishpanda81@gmail.com">
-  <img src="icons/gmail.svg" width="32" height="32" alt="Email" />
-</a>
+<a href="mailto:sourishpanda81@gmail.com"><img src="icons/gmail.svg" width="32" height="32" alt="Email" /></a>
 
 </div>
