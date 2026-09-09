@@ -60,7 +60,7 @@ self.message();
 </td>
 <td align="center" width="20%">
   <a href="https://x.com/T_RexBytes_">
-    <img src="https://img.shields.io/badge/X-@T__RexBytes__-0d1117?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    <img src="https://img.shields.io/badge/X-@T__RexBytes__-0d1117?style=for-the-badge&logoColor=white" alt="X" />
   </a>
   <br><sub>Thoughts & Updates</sub>
 </td>
