@@ -16,7 +16,7 @@
   <tr valign="middle">
     <td width="42%" align="center" valign="middle">
       <a href="https://tenor.com/view/lain-experiments-gif-202687086491934216">
-        <img src="https://media1.tenor.com/m/AtAW1M7pHggAAAAC/lain-experiments.gif" alt="Lain Serial Experiments Lain GIF" width="100%" />
+        <img src="assets/lain-experiments.gif" alt="Lain Serial Experiments Lain GIF" width="100%" />
       </a>
     </td>
     <td width="58%" valign="middle">
