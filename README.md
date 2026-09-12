@@ -29,7 +29,7 @@ public:
     vector<string> focus = {"AIML", "DSA", "Research"};
     vector<string> hobbies = {"Anime", "Music", "Gaming"};
     void message() {
-        cout << "Collaborating With Peers for Hacks & Work";
+        cout << "Colabing With Peers for Hacks & Research.";
     }
 };
 
