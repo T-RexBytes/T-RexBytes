@@ -48,7 +48,7 @@ self.message();
       <a href="https://leetcode.com/u/t-rexbytes/"><img src="icons/leetcode.svg" width="32" height="32" alt="LeetCode" /></a>&nbsp;&nbsp;
       <a href="https://discord.com/users/terex_24_"><img src="icons/discord.svg" width="32" height="32" alt="Discord" /></a>&nbsp;&nbsp;
       <a href="https://instagram.com/terex_24"><img src="icons/instagram.svg" width="32" height="32" alt="Instagram" /></a>&nbsp;&nbsp;
-      <a href="mailto:sourishpanda81@gmail.com"><img src="icons/gmail.svg" width="32" height="32" alt="Email" /></a>
+      <a href="https://www.kaggle.com/trexbytes"><img src="icons/kaggle.svg" width="32" height="32" alt="Kaggle" /></a>
     </td>
     <td width="58%" valign="middle">
       <img src="assets/stats.svg" alt="GitHub Activity Stats" width="100%" />
