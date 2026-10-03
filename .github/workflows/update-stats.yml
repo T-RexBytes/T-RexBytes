@@ -2,8 +2,11 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
+    # Runs every hour at XX:24:27 IST (UTC 54th minute + 27s sleep due to +05:30 offset)
+    - cron: '54 * * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -22,7 +25,9 @@ jobs:
           python-version: '3.11'
 
       - name: Fetch and Update Stats
-        run: python .github/scripts/update_stats.py
+        run: |
+          sleep 27
+          python .github/scripts/update_stats.py
 
       - name: Commit and push if changed
         run: |

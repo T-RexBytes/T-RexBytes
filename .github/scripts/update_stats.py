@@ -14,9 +14,12 @@ HEADERS = {
 def fetch_stats():
     stats = {}
     
+    import time
+    t = int(time.time())
+    
     # 1. Fetch Streak Stats (Contributions, Current Streak, Longest Streak)
     try:
-        url_streak = f"https://streak-stats.demolab.com/?user={USERNAME}"
+        url_streak = f"https://streak-stats.demolab.com/?user={USERNAME}&date={t}"
         req = urllib.request.Request(url_streak, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=15) as resp:
             content = resp.read().decode("utf-8")
@@ -36,7 +39,7 @@ def fetch_stats():
 
     # 2. Fetch Merged PRs
     try:
-        url_prs = f"https://github-readme-stats.vercel.app/api?username={USERNAME}&show=prs_merged"
+        url_prs = f"https://github-readme-stats.vercel.app/api?username={USERNAME}&show=prs_merged&date={t}"
         req = urllib.request.Request(url_prs, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=15) as resp:
             content = resp.read().decode("utf-8")
