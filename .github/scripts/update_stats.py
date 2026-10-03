@@ -17,7 +17,20 @@ def fetch_stats():
     import time
     t = int(time.time())
     
-    # 1. Fetch Streak Stats (Contributions, Current Streak, Longest Streak)
+    # 1. Fetch live contributions directly from official GitHub page (zero cache lag)
+    try:
+        url_gh = f"https://github.com/users/{USERNAME}/contributions?date={t}"
+        req = urllib.request.Request(url_gh, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read().decode("utf-8")
+            m = re.search(r'([0-9,]+)\s+contributions\s+in the last year', content)
+            if m:
+                # 17 contributions exist from before the 1-year calendar window
+                stats["contributions"] = str(int(m.group(1).replace(",", "")) + 17)
+    except Exception as e:
+        print(f"Warning: Failed to fetch direct GitHub contributions: {e}")
+
+    # 2. Fetch Streak Stats (Current Streak, Longest Streak)
     try:
         url_streak = f"https://streak-stats.demolab.com/?user={USERNAME}&date={t}"
         req = urllib.request.Request(url_streak, headers=HEADERS)
@@ -28,7 +41,7 @@ def fetch_stats():
             current_match = re.search(r'<!-- Current Streak big number -->.*?(\d[\d,]*)\s*</text>', content, re.DOTALL)
             longest_match = re.search(r'<!-- Longest Streak big number -->.*?(\d[\d,]*)\s*</text>', content, re.DOTALL)
             
-            if contrib_match:
+            if "contributions" not in stats and contrib_match:
                 stats["contributions"] = contrib_match.group(1).replace(",", "")
             if current_match:
                 stats["current_streak"] = current_match.group(1).replace(",", "")
@@ -37,7 +50,7 @@ def fetch_stats():
     except Exception as e:
         print(f"Warning: Failed to fetch streak stats: {e}")
 
-    # 2. Fetch Merged PRs
+    # 3. Fetch Merged PRs
     try:
         url_prs = f"https://github-readme-stats.vercel.app/api?username={USERNAME}&show=prs_merged&date={t}"
         req = urllib.request.Request(url_prs, headers=HEADERS)
