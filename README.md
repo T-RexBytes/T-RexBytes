@@ -44,11 +44,11 @@ self.message();
   <!-- Row 2: Terminal Links & Live Stats -->
   <tr valign="middle">
     <td width="42%" align="center" valign="middle">
-      <a href="https://www.linkedin.com/in/sourish-panda81"><img src="icons/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;
-      <a href="https://leetcode.com/u/t-rexbytes/"><img src="icons/leetcode.svg" width="32" height="32" alt="LeetCode" /></a>&nbsp;&nbsp;
-      <a href="https://discord.com/users/terex_24_"><img src="icons/discord.svg" width="32" height="32" alt="Discord" /></a>&nbsp;&nbsp;
-      <a href="https://instagram.com/terex_24"><img src="icons/instagram.svg" width="32" height="32" alt="Instagram" /></a>&nbsp;&nbsp;
-      <a href="https://www.kaggle.com/trexbytes"><img src="icons/kaggle.svg" width="32" height="32" alt="Kaggle" /></a>
+      <a href="https://www.linkedin.com/in/sourish-panda81"><img src="icons/linkedin.svg" width="48" height="48" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://leetcode.com/u/t-rexbytes/"><img src="icons/leetcode.svg" width="48" height="48" alt="LeetCode" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://discord.com/users/terex_24_"><img src="icons/discord.svg" width="48" height="48" alt="Discord" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://instagram.com/terex_24"><img src="icons/instagram.svg" width="48" height="48" alt="Instagram" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.kaggle.com/trexbytes"><img src="icons/kaggle.svg" width="48" height="48" alt="Kaggle" /></a>
     </td>
     <td width="58%" valign="middle">
       <img src="assets/stats.svg" alt="GitHub Activity Stats" width="100%" />
