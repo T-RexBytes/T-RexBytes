@@ -92,7 +92,7 @@
     <text class="label-idx" x="0" y="0">i.</text>
     <text class="label-text" x="32" y="0">total contributions</text>
     <text class="colon" x="222" y="0">:</text>
-    <text class="val-contrib" x="242" y="0">729</text>
+    <text class="val-contrib" x="242" y="0">730</text>
   </g>
 
   <!-- Row 2: Total Pull-Req Merged -->
@@ -116,7 +116,7 @@
     <text class="label-idx" x="0" y="0">iv.</text>
     <text class="label-text" x="32" y="0">current streak</text>
     <text class="colon" x="222" y="0">:</text>
-    <text class="val-current" x="242" y="0" filter="url(#glow)">24 <tspan class="unit">days</tspan></text>
+    <text class="val-current" x="242" y="0" filter="url(#glow)">29 <tspan class="unit">days</tspan></text>
     <text x="315" y="-1" font-size="12">🔥</text>
   </g>
 </svg>
