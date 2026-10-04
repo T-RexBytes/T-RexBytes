@@ -100,7 +100,7 @@
     <text class="label-idx" x="0" y="0">ii.</text>
     <text class="label-text" x="32" y="0">total pull-req merged</text>
     <text class="colon" x="222" y="0">:</text>
-    <text class="val-prs" x="242" y="0">67</text>
+    <text class="val-prs" x="242" y="0">68</text>
   </g>
 
   <!-- Row 3: Longest Streak -->
